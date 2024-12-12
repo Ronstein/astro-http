@@ -16,6 +16,6 @@ export default defineConfig({
   //   mode: 'standalone',
   // }),
   integrations: [mdx(), sitemap()],
-  output: 'server',
+  output: 'static',
   adapter: cloudflare(),
 });
