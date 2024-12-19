@@ -8,8 +8,7 @@
     "build": "npm run db:push && astro build --remote",
     "preview": "astro preview",
     "astro": "astro",
-    "db:push": "astro db push --remote",
-    "ex": "ex"
+    "db:push": "astro db push --remote"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.1.0",
